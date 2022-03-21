@@ -1,0 +1,93 @@
+* {
+    /* padding: 0; */
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+    color: black;
+    border: 3px solid rgb(212, 91, 115);
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: purple;
+} 
+.main{
+    display: flex;
+    gap: 5px;
+    /* flex-direction: column; */
+}
+.main nav, .main #contents {
+    padding: 10px;
+}
+nav h2 {
+    margin-bottom: 18px;
+}
+nav {
+    height: 100%;
+    width: 20vw;
+  }
+  .navlist {
+      padding: 0;
+  }
+ header{text-align:center;
+    background-color: rgb(134, 95, 134);
+/* margin:0px; padding:0%;} */
+ }
+
+ #navigation{background-color: rgb(201, 77, 97);
+padding-left: 1rem;
+padding-right: 1rem;
+}
+.skills {
+    padding-left: 50px;
+}
+
+.navlist{list-style:none;
+    /* padding:0%;
+margin: 0%;} */
+}
+img { display: block;
+    margin: 0 auto; }
+
+ #profilepicture{ width: 20% ;
+        height: 20%;
+        border-radius: 50%;
+        border: 3px solid rgb(218, 85, 107)}
+
+        h1 { margin: 0;
+        padding: 20px 0;
+        color: rgb(75, 28, 75)}    
+#heading{font-family: sans-serif;}
+.main{display:flex;
+    flex-direction: row;  
+    overflow: unset;}
+
+.icons{ 
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+img {
+    object-fit: cover;
+}
+.footer-icons {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around;
+    gap: 25px;
+}
+.footer{
+    background-color:rgb(27, 23, 23);
+    color: purple ; 
+    /* height: 10%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+
