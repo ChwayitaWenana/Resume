@@ -87,35 +87,33 @@ img {
     align-items: center;
     gap: 3px;}
 
-/* for desktop */
+
 .whatsapp_float {
 	position:fixed;
 	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
+	height:20px;
+	bottom:60px;
+	right:6px;
+	background-color:hsl(142, 75%, 46%);
+	color:rgb(255, 255, 255);
 	border-radius:50px;
 	text-align:center;
-        font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-        z-index:100;
+        font-size:100px;
 }
 
 .whatsapp-icon {
-	margin-top:16px;
+    margin-bottom: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    object-fit: cover;
 }
-/* for mobile */
-@media screen and (max-width: 767px){
-     .whatsapp-icon {
-	 margin-top:10px;
-     }
-    .whatsapp_float {
-        width: 40px;
-        height: 40px;
-        bottom: 20px;
-        right: 10px;
+
+     
+    .whatsapp{
+        width: 100px;
+        height: 80px;
+        bottom: 40px;
+        right: 40px;
         font-size: 22px;
     }
-}
