@@ -72,12 +72,28 @@ img { display: block;
 img {
     object-fit: cover;
 }
+
+.footer {
+    display: flex;
+    height: 500px;
+    
+}
+
 .footer-icons {
     display: flex;
     flex-direction: row !important;
     justify-content: space-around;
     gap: 25px;
 }
+
+#Submit{ display:flex;
+    flex-direction: row;
+    color: orangered;
+    height: 500px;
+
+
+}
+
 .footer{
     background-color:rgb(27, 23, 23);
     color: purple ; 
